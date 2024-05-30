@@ -1,59 +1,86 @@
-# Contributing Guidelines
+# Welcome to Scaffold-ETH 2 Contributing Guide
 
-Thank you for your interest in contributing to our project. Whether it's a bug report, new feature, correction, or additional
-documentation, we greatly value feedback and contributions from our community.
+Thank you for investing your time in contributing to Scaffold-ETH 2!
 
-Please read through this document before submitting any issues or pull requests to ensure we have all the necessary
-information to effectively respond to your bug report or contribution.
+This guide aims to provide an overview of the contribution workflow to help us make the contribution process effective for everyone involved.
 
+## About the Project
 
-## Reporting Bugs/Feature Requests
+Scaffold-ETH 2 is a minimal and forkable repo providing builders with a starter kit to build decentralized applications on Ethereum.
 
-We welcome you to use the GitHub issue tracker to report bugs or suggest features.
+Read the [README](README.md) to get an overview of the project.
 
-When filing an issue, please check existing open, or recently closed, issues to make sure somebody else hasn't already
-reported the issue. Please try to include as much information as you can. Details like these are incredibly useful:
+### Vision
 
-* A reproducible test case or series of steps
-* The version of our code being used
-* Any modifications you've made relevant to the bug
-* Anything unusual about your environment or deployment
+The goal of Scaffold-ETH 2 is to provide the primary building blocks for a decentralized application.
 
+The repo can be forked to include integrations and more features, but we want to keep the master branch simple and minimal.
 
-## Contributing via Pull Requests
-Contributions via pull requests are much appreciated. Before sending us a pull request, please ensure that:
+### Project Status
 
-1. You are working against the latest source on the *main* branch.
-2. You check existing open, and recently merged, pull requests to make sure someone else hasn't addressed the problem already.
-3. You open an issue to discuss any significant work - we would hate for your time to be wasted.
+The project is under active development.
 
-To send us a pull request, please:
+You can view the open Issues, follow the development process and contribute to the project.
 
-1. Fork the repository.
-2. Modify the source; please focus on the specific change you are contributing. If you also reformat all the code, it will be hard for us to focus on your change.
-3. Ensure local tests pass.
-4. Commit to your fork using clear commit messages.
-5. Send us a pull request, answering any default questions in the pull request interface.
-6. Pay attention to any automated CI failures reported in the pull request, and stay involved in the conversation.
+## Getting started
 
-GitHub provides additional document on [forking a repository](https://help.github.com/articles/fork-a-repo/) and
-[creating a pull request](https://help.github.com/articles/creating-a-pull-request/).
+You can contribute to this repo in many ways:
 
+- Solve open issues
+- Report bugs or feature requests
+- Improve the documentation
 
-## Finding contributions to work on
-Looking at the existing issues is a great way to find something to contribute on. As our projects, by default, use the default GitHub issue labels (enhancement/bug/duplicate/help wanted/invalid/question/wontfix), looking at any 'help wanted' issues is a great place to start.
+Contributions are made via Issues and Pull Requests (PRs). A few general guidelines for contributions:
 
+- Search for existing Issues and PRs before creating your own.
+- Contributions should only fix/add the functionality in the issue OR address style issues, not both.
+- If you're running into an error, please give context. Explain what you're trying to do and how to reproduce the error.
+- Please use the same formatting in the code repository. You can configure your IDE to do it by using the prettier / linting config files included in each package.
+- If applicable, please edit the README.md file to reflect the changes.
 
-## Code of Conduct
-This project has adopted the [Amazon Open Source Code of Conduct](https://aws.github.io/code-of-conduct).
-For more information see the [Code of Conduct FAQ](https://aws.github.io/code-of-conduct-faq) or contact
-opensource-codeofconduct@amazon.com with any additional questions or comments.
+### Issues
 
+Issues should be used to report problems, request a new feature, or discuss potential changes before a PR is created.
 
-## Security issue notifications
-If you discover a potential security issue in this project we ask that you notify AWS/Amazon Security via our [vulnerability reporting page](http://aws.amazon.com/security/vulnerability-reporting/). Please do **not** create a public github issue.
+#### Solve an issue
 
+Scan through our [existing issues](https://github.com/scaffold-eth/scaffold-eth-2/issues) to find one that interests you.
 
-## Licensing
+If a contributor is working on the issue, they will be assigned to the individual. If you find an issue to work on, you are welcome to assign it to yourself and open a PR with a fix for it.
 
-See the [LICENSE](LICENSE) file for our project's licensing. We will ask you to confirm the licensing of your contribution.
+#### Create a new issue
+
+If a related issue doesn't exist, you can open a new issue.
+
+Some tips to follow when you are creating an issue:
+
+- Provide as much context as possible. Over-communicate to give the most details to the reader.
+- Include the steps to reproduce the issue or the reason for adding the feature.
+- Screenshots, videos etc., are highly appreciated.
+
+### Pull Requests
+
+#### Pull Request Process
+
+We follow the ["fork-and-pull" Git workflow](https://github.com/susam/gitpr)
+
+1. Fork the repo
+2. Clone the project
+3. Create a new branch with a descriptive name
+4. Commit your changes to the new branch
+5. Push changes to your fork
+6. Open a PR in our repository and tag one of the maintainers to review your PR
+
+Here are some tips for a high-quality pull request:
+
+- Create a title for the PR that accurately defines the work done.
+- Structure the description neatly to make it easy to consume by the readers. For example, you can include bullet points and screenshots instead of having one large paragraph.
+- Add the link to the issue if applicable.
+- Have a good commit message that summarises the work done.
+
+Once you submit your PR:
+
+- We may ask questions, request additional information or ask for changes to be made before a PR can be merged. Please note that these are to make the PR clear for everyone involved and aims to create a frictionless interaction process.
+- As you update your PR and apply changes, mark each conversation resolved.
+
+Once the PR is approved, we'll "squash-and-merge" to keep the git commit history clean.
